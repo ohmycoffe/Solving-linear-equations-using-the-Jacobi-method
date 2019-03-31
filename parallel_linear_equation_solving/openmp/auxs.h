@@ -1,0 +1,13 @@
+void show_matrix(double** array, int rows, int cols);
+void show_vector(double* array, int rows);
+void save_matrix(char *filename,  double** matrix, int rows, int cols);
+void save_vector(char *filename,  double* vector, int size);
+void zeroing_matrix(double** array, int rows, int cols);
+void zeroing_vector(double* vector, int rows);
+void generate_matrix(double **matrix,  int size, int range, float offset);
+void generate_vector(double *vector,  int size, int range, float offset);
+void makeDiagDominant(double** matrix, int rows, int cols, float gain_muliplier);
+void calculate_b(double** A, double* x, double* b, int size);
+int get_rowsNo(char *filename);
+void load_matrix(double** array, int rows, int cols, char *filename);
+void load_vector(double* vector, int rows, char *filename);
